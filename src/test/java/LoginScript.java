@@ -18,7 +18,7 @@ public class LoginScript {
         driver.get("http://nrcmiscmoddev01:8034/#/login");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        Reporter.log("browser session start",true);
+        Reporter.log("browser session start now",true);
     }
 
 
