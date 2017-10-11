@@ -24,3 +24,4 @@ public class BaseClass {
         Reporter.log("browser session end",true);
     }
 }
+
