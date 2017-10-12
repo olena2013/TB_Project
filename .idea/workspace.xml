@@ -29,17 +29,16 @@
       <file leaf-file-name="BaseClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Provider_Profile_Setup_Step_1_Profile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Provider_Profile_Setup_Step_1_Profile.java">
+      <file leaf-file-name="InvalidLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/InvalidLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="119">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
@@ -65,23 +64,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-=======
-            <state relative-caret-position="357">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
->>>>>>> bf8ffefa3a5ac2d63cfc7e9e904bf89bbd308641
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Login.java">
+      <file leaf-file-name="Login_Authenticating_User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Login_Authenticating_User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="method#loginToAppl#0;class#Login#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,17 +103,14 @@
         <option value="$PROJECT_DIR$/src/test/java/Create_New_Provider_Profile.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Login_Lost_Password.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Provider_Profile_Setup_Step_1_Profile.java" />
         <option value="$USER_HOME$/Documents/GitHub/Selenium-test/pom.xml" />
         <option value="$USER_HOME$/Documents/GitHub/Selenium-test/src/main/java/MyFirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Login_Authenticating_User.java" />
         <option value="$PROJECT_DIR$/src/test/java/Administrator_Registration_Setup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/InvalidLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginScript.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Admin_Provider_Profile_Setup/Registration_Setup.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Login_Authenticating_User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Login/LoginScript.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Login.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Provider_Profile_Setup_Step_1_Profile.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseClass.java" />
       </list>
     </option>
   </component>
@@ -158,17 +148,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
     <option name="x" value="30" />
     <option name="y" value="45" />
     <option name="width" value="1041" />
     <option name="height" value="492" />
-=======
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
->>>>>>> bf8ffefa3a5ac2d63cfc7e9e904bf89bbd308641
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -186,13 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-=======
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
->>>>>>> bf8ffefa3a5ac2d63cfc7e9e904bf89bbd308641
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -252,15 +230,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Provider_Profile_Setup_Step_1_Profile">
-    <configuration name="Login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.InvalidLogin">
+    <configuration name="Administrator_Registration_Setup (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Administrator_Registration_Setup" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="Administrator_Registration_Setup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Administrator_Registration_Setup" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TB_Portal" />
+      <envs />
+    </configuration>
+    <configuration name="InvalidLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TB_Portal" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Login" />
+      <option name="MAIN_CLASS_NAME" value="InvalidLogin" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -287,7 +293,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Login.LoginScript" />
+      <option name="MAIN_CLASS_NAME" value="LoginScript" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -307,9 +313,9 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Login_Authenticating_User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Provider_Profile_Setup_Step_1_Profile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Login_Authenticating_User" />
+      <option name="MAIN_CLASS_NAME" value="Provider_Profile_Setup_Step_1_Profile" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -320,65 +326,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="TB_Portal" />
       <envs />
-    </configuration>
-    <configuration name="Login_Authenticting_User" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Admin_Provider_Profile_Setup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TB_Portal" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Admin_Provider_Profile_Setup" />
-      <option name="MAIN_CLASS_NAME" value="Admin_Provider_Profile_Setup.Login_Authenticting_User" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Provider_Profile_Setup_Step_1_Profile" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="TB_Portal" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Provider_Profile_Setup_Step_1_Profile" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -462,19 +409,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.LoginScript" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.InvalidLogin" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.Login_Authenticting_User" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Login_Authenticating_User" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.Provider_Profile_Setup_Step_1_Profile" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Provider_Profile_Setup_Step_1_Profile" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Administrator_Registration_Setup" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Administrator_Registration_Setup (1)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.LoginScript" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.InvalidLogin" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Provider_Profile_Setup_Step_1_Profile" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Login_Authenticating_User" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.Login_Authenticting_User" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.InvalidLogin" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginScript" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.InvalidLogin" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.LoginScript" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Administrator_Registration_Setup (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Administrator_Registration_Setup" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Provider_Profile_Setup_Step_1_Profile" />
       </list>
     </recent_temporary>
   </component>
@@ -521,35 +468,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvalidLogin - 2017.10.11 at 14h 57m 41s.xml">
+    <history-entry file="InvalidLogin - 2017.10.10 at 21h 21m 18s.xml">
       <configuration name="InvalidLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Login - 2017.10.11 at 15h 09m 39s.xml">
-      <configuration name="Login" configurationId="TestNG" />
+    <history-entry file="InvalidLogin - 2017.10.10 at 21h 23m 59s.xml">
+      <configuration name="InvalidLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InvalidLogin - 2017.10.10 at 21h 30m 57s.xml">
+      <configuration name="InvalidLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InvalidLogin - 2017.10.11 at 09h 42m 00s.xml">
+      <configuration name="InvalidLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InvalidLogin - 2017.10.11 at 11h 09m 30s.xml">
+      <configuration name="InvalidLogin" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LoginScript - 2017.10.10 at 21h 08m 41s.xml">
       <configuration name="LoginScript" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LoginScript - 2017.10.11 at 09h 44m 53s.xml">
       <configuration name="LoginScript" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Login_Authenticting_User - 2017.10.11 at 14h 49m 51s.xml">
-      <configuration name="Login_Authenticting_User" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Login_Authenticting_User - 2017.10.11 at 14h 49m 59s.xml">
-      <configuration name="Login_Authenticting_User" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Login_Authenticting_User - 2017.10.11 at 15h 12m 56s.xml">
-      <configuration name="Login_Authenticting_User" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Login_Authenticting_User - 2017.10.11 at 15h 13m 14s.xml">
-      <configuration name="Login_Authenticting_User" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Provider_Profile_Setup_Step_1_Profile - 2017.10.11 at 15h 29m 44s.xml">
-      <configuration name="Provider_Profile_Setup_Step_1_Profile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Provider_Profile_Setup_Step_1_Profile - 2017.10.11 at 15h 30m 52s.xml">
-      <configuration name="Provider_Profile_Setup_Step_1_Profile" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -562,32 +500,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
-=======
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
->>>>>>> bf8ffefa3a5ac2d63cfc7e9e904bf89bbd308641
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4478261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25434783" sideWeight="0.5117271" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25535715" sideWeight="0.50970876" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21035598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25434783" sideWeight="0.48827294" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25535715" sideWeight="0.49029127" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.262945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
->>>>>>> bf8ffefa3a5ac2d63cfc7e9e904bf89bbd308641
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -598,7 +526,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4482143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -668,12 +598,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/Login_Authenticating_User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -710,8 +639,6 @@
         </state>
       </provider>
     </entry>
-=======
->>>>>>> bf8ffefa3a5ac2d63cfc7e9e904bf89bbd308641
     <entry file="file://$PROJECT_DIR$/src/test/java/Provider_Profile_Setup_Step_1_Profile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -912,6 +839,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Login_Lost_Password.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0.jar!/org/openqa/selenium/internal/HasIdentity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -940,7 +874,6 @@
     <entry file="file://$PROJECT_DIR$/target/test-classes/Provider_Profile_Setup_Step_1_Profile.class" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/Administrator_Registration_Setup.class" />
     <entry file="file://$PROJECT_DIR$/my-project/README.md" />
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/Provider_Profile_Setup_Step_1_Profile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -948,8 +881,6 @@
         </state>
       </provider>
     </entry>
-=======
->>>>>>> bf8ffefa3a5ac2d63cfc7e9e904bf89bbd308641
     <entry file="file://$PROJECT_DIR$/src/test/java/Administrator_Registration_Setup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -965,99 +896,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Base/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Admin_Provider_Profile_Setup/Registration_Setup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Login/Login_Lost_Password.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Login/LoginScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Login_Lost_Password.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Admin_Provider_Profile_Setup/Login_Authenticting_User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Login_Authenticating_User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="272">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/InvalidLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="method#loginToAppl#0;class#Login#0" expanded="false" />
+            <element signature="method#loginToAppl#0;class#InvalidLogin#0" expanded="false" />
+            <element signature="method#loginToApp#0;class#InvalidLogin#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginScript.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Provider_Profile_Setup_Step_1_Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding />
@@ -1068,10 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-=======
-        <state relative-caret-position="357">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
->>>>>>> bf8ffefa3a5ac2d63cfc7e9e904bf89bbd308641
           <folding />
         </state>
       </provider>

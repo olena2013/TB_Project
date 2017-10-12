@@ -3,17 +3,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertTrue;
 
 
-public class Provider_Profile_Setup_Step_1_Profile extends BaseClass {
+public class Provider_Profile_Setup_Step_1_Profile {
+    public static void main(String[] args) {
+        //System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lena\\IdeaProjects\\TB_Portal\\driver_Firefox\\geckodriver.exe");
+        //WebDriver driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lena\\IdeaProjects\\TB_Portal\\driver_Chrome\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
 
-    @Test
-    public void setupStep1() {
+        driver.get("http://nrcmiscmoddev01:8034/#/login");
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+
         driver.findElement(By.id("login-email")).sendKeys("olena@consultnovo.com");
         driver.findElement(By.id("login-password")).sendKeys("Portal@1");
         driver.findElement(By.cssSelector(".auth-box__main-action")).click();
@@ -44,17 +50,15 @@ public class Provider_Profile_Setup_Step_1_Profile extends BaseClass {
         driver.findElement(By.xpath("//ancestor::div[@class='dropdown dropdown--active']/ul/li[text()='Check']")).click();
         driver.findElement(By.id("medicaid-id")).sendKeys("6238476374643");
         driver.findElement(By.id("npi")).sendKeys("2983487236");
-
-    }
 //        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 //        driver.findElement(By.xpath("//span[contains(@class,'button btn-sm button--ghost')]")).click();
 //        driver.findElement(By.xpath("//div[@class='modal__body']/div/button[@class='mx-2']")).click();
 //        driver.findElement(By.xpath("//div[@class='d-flex justify-content-center']/button[text()='Save']")).click();
-//        driver.findElement(By.xpath("//span[text()='NEXT - Service Area']")).click();
-//
-//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//        driver.findElement(By.xpath("(//*[contains(@class,'input-with-button')])[1]")).click();
-//        driver.findElement(By.xpath("//div[@class='dropdown']//li[text()='FL']")).click();
+        driver.findElement(By.xpath("//span[text()='NEXT - Service Area']")).click();
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.findElement(By.xpath("(//*[contains(@class,'input-with-button')])[1]")).click();
+        driver.findElement(By.xpath("//div[@class='dropdown']//li[text()='FL']")).click();
 
 
 
@@ -62,6 +66,6 @@ public class Provider_Profile_Setup_Step_1_Profile extends BaseClass {
     }
 
 
-
+}
 
 
