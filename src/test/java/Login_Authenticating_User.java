@@ -16,7 +16,7 @@ public class Login_Authenticating_User {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lena\\IdeaProjects\\TB_Portal\\driver_Chrome\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://nrcmiscmoddev01:8034/#/login");
+        driver.get("http://nrcmiscmoddev01:8038/#/login");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 

@@ -21,4 +21,3 @@ public class Login extends BaseClass {
         driver.findElement(By.cssSelector(".auth-box__main-action")).click();
     }
 }
-
