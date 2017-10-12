@@ -9,10 +9,11 @@ import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class ProviderProfileSetup extends BaseClass{
 
-        @Test
-        public void setupStep1(){
+public class Provider_Profile_Setup_Step_1_Profile extends BaseClass {
+
+    @Test
+    public void setupStep1() {
         driver.findElement(By.id("login-email")).sendKeys("olena@consultnovo.com");
         driver.findElement(By.id("login-password")).sendKeys("Portal@1");
         driver.findElement(By.cssSelector(".auth-box__main-action")).click();
@@ -43,7 +44,10 @@ public class ProviderProfileSetup extends BaseClass{
         driver.findElement(By.xpath("//ancestor::div[@class='dropdown dropdown--active']/ul/li[text()='Check']")).click();
         driver.findElement(By.id("medicaid-id")).sendKeys("6238476374643");
         driver.findElement(By.id("npi")).sendKeys("2983487236");
-        driver.findElement(By.xpath("//span[contains(@class,'button btn-sm button--ghost')]")).click();
+
+    }
+//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//        driver.findElement(By.xpath("//span[contains(@class,'button btn-sm button--ghost')]")).click();
 //        driver.findElement(By.xpath("//div[@class='modal__body']/div/button[@class='mx-2']")).click();
 //        driver.findElement(By.xpath("//div[@class='d-flex justify-content-center']/button[text()='Save']")).click();
 //        driver.findElement(By.xpath("//span[text()='NEXT - Service Area']")).click();
@@ -57,13 +61,7 @@ public class ProviderProfileSetup extends BaseClass{
 
     }
 
-        @Test
-        public void setupStep2(){
 
 
-        }
-
-
-}
 
 

@@ -11,7 +11,7 @@ public class BaseClass {
 
     @BeforeMethod
     public void setUpApp(){
-        System.setProperty("webdriver.chrome.driver","C:\\Tools\\driver_chrome\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lena\\IdeaProjects\\TB_Portal\\driver_Chrome\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://nrcmiscmoddev01:8034/#/login");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -24,3 +24,4 @@ public class BaseClass {
         Reporter.log("browser session end",true);
     }
 }
+
