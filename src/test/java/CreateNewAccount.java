@@ -10,23 +10,20 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class CreateNewAccount {
-    private WebDriver driver;
+public class CreateNewAccount extends BaseClass {
 
-    @BeforeTest
-    public void start() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lena\\IdeaProjects\\TB_Portal\\driver_chrome\\chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.get("http://nrcmiscmoddev01:8034");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+
+    @Test
+    public void loginInApp(){
         driver.findElement(By.id("login-email")).sendKeys("olena@consultnovo.com");
         driver.findElement(By.id("login-password")).sendKeys("Portal@1");
         driver.findElement(By.cssSelector(".auth-box__main-action")).click();
     }
 
+
     @Test
-    public void createNewAccount() {
+    public void createNewAccount () {
         driver.findElement(By.xpath("//div[contains(@class,'flex-wrapper justify-content')]/div[1]")).click();
         driver.findElement(By.id("provider-profile")).sendKeys("MedCard");
         driver.findElement(By.xpath("(//input[contains(@class,'ember-text-field ember-view')])[1]")).sendKeys("1236647897");

@@ -1,7 +1,12 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -44,17 +49,22 @@ public class Provider_Profile_Setup_Step_1_Profile extends BaseClass {
         driver.findElement(By.xpath("//ancestor::div[@class='dropdown dropdown--active']/ul/li[text()='Check']")).click();
         driver.findElement(By.id("medicaid-id")).sendKeys("6238476374643");
         driver.findElement(By.id("npi")).sendKeys("2983487236");
+        driver.findElement(By.id("amr-comm-center")).sendKeys("AMR Center phone( 209)-237-8837");
+        driver.findElement(By.xpath("//button[@class='button btn-sm footer-registration__action']")).click();
+
 
     }
-//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//        driver.findElement(By.xpath("//span[contains(@class,'button btn-sm button--ghost')]")).click();
-//        driver.findElement(By.xpath("//div[@class='modal__body']/div/button[@class='mx-2']")).click();
-//        driver.findElement(By.xpath("//div[@class='d-flex justify-content-center']/button[text()='Save']")).click();
-//        driver.findElement(By.xpath("//span[text()='NEXT - Service Area']")).click();
-//
-//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//        driver.findElement(By.xpath("(//*[contains(@class,'input-with-button')])[1]")).click();
-//        driver.findElement(By.xpath("//div[@class='dropdown']//li[text()='FL']")).click();
+    @Test
+    public void setupStep2(){
+
+        WebElement element = driver.findElement(By.cssSelector("input[placeholder='Add a state']"));
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click()", element);
+        WebDriverWait wait = new WebDriverWait(driver,30);
+        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input[placeholder='Add a state']"))).click();
+        driver.findElement(By.xpath("//ancestor::div[@class='dropdown dropdown--active']/ul/li[text()='FL']")).click();
+    }
+
 
 
 

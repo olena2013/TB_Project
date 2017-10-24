@@ -1,17 +1,18 @@
 import org.openqa.selenium.By;
-import org.testng.Reporter;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Login extends BaseClass {
 
 
-    @Test(description = "Test case perform invalid login")
-    public void loginToAppl(){
-        driver.findElement(By.id("login-email")).sendKeys("alena@consultnovo.com");
-        driver.findElement(By.id("login-password")).sendKeys("Portal21");
-        driver.findElement(By.cssSelector(".auth-box__main-action")).click();
-        Reporter.log("browser session end",true);
-    }
+//    @Test(description = "Test case perform invalid login")
+//    public void loginToAppl(){
+//        driver.findElement(By.id("login-email")).sendKeys("alena@consultnovo.com");
+//        driver.findElement(By.id("login-password")).sendKeys("Portal21");
+//        Assert.assertTrue(!(driver.findElement(By.cssSelector(".auth-box__main-action")).isEnabled()));
+//
+//
+//    }
 
 
     @Test(description = "Test case perform valid login")
