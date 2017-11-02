@@ -1,10 +1,10 @@
+package com.qa.novotech.tbportal;
+
 import org.openqa.selenium.*;
 
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 
 
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class Administrator_Registration_Setup {

@@ -1,25 +1,38 @@
+package com.qa.novotech.tbportal.appmanager;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.testng.AssertJUnit.assertTrue;
+public class ApplicationManager {
+    public WebDriver driver;
 
-public class ProviderProfileSetup extends BaseClass{
+    public void init() {
+        System.setProperty("webdriver.chrome.driver", "C:\\Tools\\driver_chrome\\chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.get("http://nrcmiscmoddev01:8034/#/login");
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+    }
 
-        @Test
-        public void setupStep1(){
+    public void login() {
         driver.findElement(By.id("login-email")).sendKeys("olena@consultnovo.com");
         driver.findElement(By.id("login-password")).sendKeys("Portal@1");
         driver.findElement(By.cssSelector(".auth-box__main-action")).click();
+    }
 
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    public void stop() {
+        driver.quit();
+    }
+
+    public void clickNextButton() {
+        driver.findElement(By.xpath("//span[contains(@class,'button btn-sm button--ghost')]")).click();
+    }
+
+    public void fillFormProfileStep1() {
         driver.findElement(By.xpath("//div[contains(@class,'admin__index')]/div[1]")).click();
-
         driver.findElement(By.id("provider-profile")).sendKeys("MedCart");
         driver.findElement(By.xpath("//input[@class='masked-input ember-text-field ember-view']")).sendKeys("1234567890");
         driver.findElement(By.id("email")).sendKeys("medcart@amr.com");
@@ -43,27 +56,5 @@ public class ProviderProfileSetup extends BaseClass{
         driver.findElement(By.xpath("//ancestor::div[@class='dropdown dropdown--active']/ul/li[text()='Check']")).click();
         driver.findElement(By.id("medicaid-id")).sendKeys("6238476374643");
         driver.findElement(By.id("npi")).sendKeys("2983487236");
-        driver.findElement(By.xpath("//span[contains(@class,'button btn-sm button--ghost')]")).click();
-//        driver.findElement(By.xpath("//div[@class='modal__body']/div/button[@class='mx-2']")).click();
-//        driver.findElement(By.xpath("//div[@class='d-flex justify-content-center']/button[text()='Save']")).click();
-//        driver.findElement(By.xpath("//span[text()='NEXT - Service Area']")).click();
-//
-//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//        driver.findElement(By.xpath("(//*[contains(@class,'input-with-button')])[1]")).click();
-//        driver.findElement(By.xpath("//div[@class='dropdown']//li[text()='FL']")).click();
-
-
-
-
     }
-
-        @Test
-        public void setupStep2(){
-
-
-        }
-
-
 }
-
-
